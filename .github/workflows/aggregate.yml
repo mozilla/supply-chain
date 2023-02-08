@@ -32,6 +32,6 @@ jobs:
         git config --global user.name "cargo-vet[bot]"
         git config --global user.email "cargo-vet-aggregate@invalid"
         git add audits.toml
-        git commit -m "Aggregate new audits"
+        git commit -m "Aggregate new audits" || true
     - name: Push changes (if any)
       run: git push origin main
