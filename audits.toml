@@ -529,6 +529,12 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 [[audits.cssparser-macros]]
 who = "Tiaan Louw <tlouw@mozilla.com>"
 criteria = "safe-to-deploy"
+delta = "0.6.0 -> 0.6.0@git:b196a164dcbb317016d4aa6c58c13147e6045ebb"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.cssparser-macros]]
+who = "Tiaan Louw <tlouw@mozilla.com>"
+criteria = "safe-to-deploy"
 delta = "0.6.0 -> 0.6.0@git:d3670a89bae26ba3a8db4758eb7976616113987d"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
