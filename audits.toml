@@ -38,6 +38,13 @@ criteria = "safe-to-deploy"
 delta = "0.11.1 -> 0.11.3"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.android_logger]]
+who = "Chris H-C <chutten@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.11.3 -> 0.12.0"
+notes = "Small wrapper crate. This update fixes log level filtering."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.android_system_properties]]
 who = "Nicolas Silva <nical@fastmail.com>"
 criteria = "safe-to-deploy"
@@ -478,12 +485,6 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-deploy"
 delta = "0.9.10 -> 0.9.13"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.crossbeam-queue]]
-who = "Matthew Gregan <kinetik@flim.org>"
-criteria = "safe-to-deploy"
-version = "0.3.8"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.crossbeam-utils]]
@@ -1195,214 +1196,6 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-deploy"
 delta = "0.2.7 -> 0.2.8"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "50.1.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Travis Long <tlong@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "50.1.2"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "51.1.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Chris H-C <chutten@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "51.7.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Chris H-C <chutten@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "51.8.1"
-notes = "Maintained by the Glean Team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Chris H-C <chutten@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "51.8.2"
-notes = "Maintained by the Glean Team at Mozilla."
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Chris H-C <chutten@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "52.0.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "50.1.2 -> 50.1.3"
-notes = "Unchanged from last version"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "50.1.3 -> 51.0.1"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "51.1.0 -> 51.2.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Perry McManis <pmcmanis@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "51.2.0 -> 51.4.0"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "51.4.0 -> 51.5.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "51.7.0 -> 51.8.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "52.0.0 -> 52.0.1"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "52.0.1 -> 52.2.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "50.1.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Travis Long <tlong@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "50.1.2"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "51.1.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Chris H-C <chutten@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "51.7.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Chris H-C <chutten@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "51.8.1"
-notes = "Maintained by the Glean Team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Chris H-C <chutten@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "51.8.2"
-notes = "Maintained by the Glean Team at Mozilla."
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Chris H-C <chutten@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "52.0.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "50.1.2 -> 50.1.3"
-notes = "Bug fix release with minimal changes, changes done by myself"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "50.1.3 -> 51.0.1"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "51.1.0 -> 51.2.0"
-notes = "Bug fix release with minimal changes, changes done by myself"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Perry McManis <pmcmanis@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "51.2.0 -> 51.4.0"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "51.4.0 -> 51.5.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "51.7.0 -> 51.8.0"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "52.0.0 -> 52.0.1"
-notes = "Maintained by the Glean team at Mozilla"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.glean-core]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "52.0.1 -> 52.2.0"
-notes = "Maintained by the Glean team at Mozilla"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.glob]]
