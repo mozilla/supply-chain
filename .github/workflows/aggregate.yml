@@ -12,7 +12,7 @@ jobs:
     name: Aggregate Dependencies
     runs-on: ubuntu-latest
     env:
-      CARGO_VET_REVISION: a6a4422274a2c31fbad1b62e0e0f71dd17aa54e8
+      CARGO_VET_VERSION: 0.4
     steps:
     - uses: actions/checkout@master
     - name: Install Rust
@@ -20,11 +20,11 @@ jobs:
     - uses: actions/cache@v2
       with:
         path: ${{ runner.tool_cache }}/cargo-vet
-        key: cargo-vet-bin-${{ env.CARGO_VET_REVISION }}
+        key: cargo-vet-bin-${{ env.CARGO_VET_VERSION }}
     - name: Add the tool cache directory to the search path
       run: echo "${{ runner.tool_cache }}/cargo-vet/bin" >> $GITHUB_PATH
     - name: Ensure that the tool cache is populated with the cargo-vet binary
-      run: cargo install --root ${{ runner.tool_cache }}/cargo-vet --git https://github.com/mozilla/cargo-vet.git --rev ${{ env.CARGO_VET_REVISION }} cargo-vet
+      run: cargo install --root ${{ runner.tool_cache }}/cargo-vet --version ${{ env.CARGO_VET_VERSION }} cargo-vet
     - name: Invoke cargo-vet aggregate
       run: cargo vet aggregate --output-file audits.toml sources.list
     - name: Commit changes (if any)
