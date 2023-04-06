@@ -381,6 +381,13 @@ version = "0.6.3"
 notes = "Another crate I own via contain-rs that is ancient and in maintenance mode but otherwise perfectly fine."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.bitflags]]
+who = "Alex Franchuk <afranchuk@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "1.3.2 -> 2.0.2"
+notes = "Removal of some unsafe code/methods. No changes to externals, just some refactoring (mostly internal)."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.block-buffer]]
 who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-deploy"
@@ -556,6 +563,17 @@ who = "Gabriele Svelto <gsvelto@mozilla.com>"
 criteria = "safe-to-deploy"
 version = "0.5.1"
 notes = "Mozilla employees contributed to this crate and the remaining code was fully audited"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.crash-context]]
+who = "Alex Franchuk <afranchuk@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.5.1 -> 0.6.0"
+notes = """
+There are few changes. The main change is the removal of `winapi` in favor of
+manually-generated bindings (which are minimal). The few small bugfixes are
+sound.
+"""
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.crossbeam-channel]]
@@ -1722,6 +1740,13 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Bobby Holley <bobbyholley@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.7.0 -> 0.7.0@git:7d76616d27b9dc87fe3a94639b8b4f947d52a6aa"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.minidump-writer]]
+who = "Alex Franchuk <afranchuk@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.7.0 -> 0.8.0"
+notes = "The code in this crate was written or reviewed by Mozilla employees, the crate it evolved from was written specifically for gecko."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.miniz_oxide]]
