@@ -943,6 +943,13 @@ casts for serialization and parsing).
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.cssparser]]
+who = "Emilio Cobos Álvarez <emilio@crisal.io>"
+criteria = "safe-to-deploy"
+version = "0.31.0@git:6ce91afdf292c4290118843e7421e146f0a4c48b"
+notes = "Local changes authored by me that aren't published yet."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.cssparser]]
 who = "Bobby Holley <bobbyholley@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.29.6 -> 0.31.0"
@@ -965,7 +972,7 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 [[audits.cssparser-macros]]
 who = "Emilio Cobos Álvarez <emilio@crisal.io>"
 criteria = "safe-to-deploy"
-delta = "0.6.0 -> 0.6.0@git:3e1bd05139cb7174ace395d498ca7128feb8f69d"
+version = "0.6.0@git:6ce91afdf292c4290118843e7421e146f0a4c48b"
 notes = "We are pulling this package from a non crates.io source until the changes are published. No changes were made to the code."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
