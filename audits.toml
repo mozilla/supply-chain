@@ -1185,6 +1185,12 @@ delta = "0.1.26 -> 0.2.2"
 notes = "Dependency updates only"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[audits.ctor]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-run"
+delta = "0.2.2 -> 0.2.4"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[audits.cubeb]]
 who = "Matthew Gregan <kinetik@flim.org>"
 criteria = "safe-to-deploy"
