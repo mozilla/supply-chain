@@ -5503,6 +5503,13 @@ start = "2019-03-28"
 end = "2024-05-03"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[trusted.anstyle]]
+criteria = "safe-to-deploy"
+user-id = 6743
+start = "2022-05-18"
+end = "2024-09-28"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[trusted.async-trait]]
 criteria = "safe-to-deploy"
 user-id = 3618
