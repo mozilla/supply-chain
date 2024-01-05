@@ -1761,61 +1761,7 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 [[audits.d3d12]]
 who = "Nicolas Silva <nical@fastmail.com>"
 criteria = "safe-to-deploy"
-delta = "0.5.0 -> 0.5.0@git:a990c93ec64eeab78f2292763d0715da9dba1d59"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.d3d12]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.5.0@git:a990c93ec64eeab78f2292763d0715da9dba1d59 -> 0.6.0@git:b940b1d71ab7083ae80eec697872672dc1f2bd32"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.d3d12]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.6.0@git:b940b1d71ab7083ae80eec697872672dc1f2bd32 -> 0.7.0"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.d3d12]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.7.0 -> 0.7.0@git:ba3d6898f18c25bb5a2b8ba18790134b97758e83"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.d3d12]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.7.0@git:3ec547cdcaaa14488327d8f1b5f7736278c4178d -> 0.7.0@git:6e21f7a9291db4395192d6b510d906978ae2d251"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.d3d12]]
-who = "Erich Gubler <egubler@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.7.0@git:6e21f7a9291db4395192d6b510d906978ae2d251 -> 0.7.0@git:a820a3ffba468cbb87c2a7e7bbe37065ed5207ee"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.d3d12]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.7.0@git:767ac03245ee937d3dc552edc13fe7ab0a860eec -> 0.7.0@git:ff7b2c399301cca9bcbc5b19a869feb3c29ef785"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.d3d12]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.7.0@git:a820a3ffba468cbb87c2a7e7bbe37065ed5207ee -> 0.7.0@git:767ac03245ee937d3dc552edc13fe7ab0a860eec"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.d3d12]]
-who = "Teodor Tanasoaia <ttanasoaia@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.7.0@git:ba3d6898f18c25bb5a2b8ba18790134b97758e83 -> 0.7.0@git:3ec547cdcaaa14488327d8f1b5f7736278c4178d"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.d3d12]]
-who = "Teodor Tanasoaia <ttanasoaia@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.7.0@git:ff7b2c399301cca9bcbc5b19a869feb3c29ef785 -> 0.7.0@git:6dc9ccab8592645fda3204be1cfb5929fd7f924d"
+delta = "0.5.0 -> 0.7.0"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.darling]]
@@ -3397,54 +3343,6 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Nicolas Silva <nical@fastmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.13.0 -> 0.14.0"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.naga]]
-who = "Jim Blandy <jimb@red-bean.com>"
-criteria = "safe-to-deploy"
-delta = "0.14.0 -> 0.14.0@git:34e947de4b3e0b0d6b0e2f40cede926467ea9f1e"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.naga]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.14.0@git:34e947de4b3e0b0d6b0e2f40cede926467ea9f1e -> 0.14.0@git:ba3d6898f18c25bb5a2b8ba18790134b97758e83"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.naga]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.14.0@git:3ec547cdcaaa14488327d8f1b5f7736278c4178d -> 0.14.0@git:6e21f7a9291db4395192d6b510d906978ae2d251"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.naga]]
-who = "Erich Gubler <egubler@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.14.0@git:6e21f7a9291db4395192d6b510d906978ae2d251 -> 0.14.0@git:a820a3ffba468cbb87c2a7e7bbe37065ed5207ee"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.naga]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.14.0@git:767ac03245ee937d3dc552edc13fe7ab0a860eec -> 0.14.0@git:ff7b2c399301cca9bcbc5b19a869feb3c29ef785"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.naga]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.14.0@git:a820a3ffba468cbb87c2a7e7bbe37065ed5207ee -> 0.14.0@git:767ac03245ee937d3dc552edc13fe7ab0a860eec"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.naga]]
-who = "Teodor Tanasoaia <ttanasoaia@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.14.0@git:ba3d6898f18c25bb5a2b8ba18790134b97758e83 -> 0.14.0@git:3ec547cdcaaa14488327d8f1b5f7736278c4178d"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.naga]]
-who = "Teodor Tanasoaia <ttanasoaia@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.14.0@git:ff7b2c399301cca9bcbc5b19a869feb3c29ef785 -> 0.14.0@git:6dc9ccab8592645fda3204be1cfb5929fd7f924d"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.net2]]
@@ -5060,6 +4958,12 @@ criteria = "safe-to-deploy"
 delta = "0.9.0 -> 0.9.1"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.unic-langid]]
+who = "Eemeli Aro <eemeli@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.9.1 -> 0.9.4"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.unic-langid-impl]]
 who = "Zibi Braniecki <zibi@unicode.org>"
 criteria = "safe-to-deploy"
@@ -5070,6 +4974,13 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Makoto Kato <m_kato@ga2.so-net.ne.jp>"
 criteria = "safe-to-deploy"
 delta = "0.9.0 -> 0.9.1"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.unic-langid-impl]]
+who = "Eemeli Aro <eemeli@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.9.1 -> 0.9.4"
+notes = "I have authored most of the upstream changes included here."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.unic-langid-macros]]
@@ -5620,12 +5531,6 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 [[audits.wgpu-core]]
 who = "Nicolas Silva <nical@fastmail.com>"
 criteria = "safe-to-deploy"
-delta = "0.14.0 -> 0.14.0@git:fac4731288117d951d0944d96cf0b00fa006dd6c"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-core]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
 delta = "0.14.0 -> 0.15.0"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
@@ -5645,54 +5550,6 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Nicolas Silva <nical@fastmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.17.0 -> 0.18.0"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-core]]
-who = "Jim Blandy <jimb@red-bean.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0 -> 0.18.0@git:34e947de4b3e0b0d6b0e2f40cede926467ea9f1e"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-core]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:34e947de4b3e0b0d6b0e2f40cede926467ea9f1e -> 0.18.0@git:ba3d6898f18c25bb5a2b8ba18790134b97758e83"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-core]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:3ec547cdcaaa14488327d8f1b5f7736278c4178d -> 0.18.0@git:6e21f7a9291db4395192d6b510d906978ae2d251"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-core]]
-who = "Erich Gubler <egubler@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:6e21f7a9291db4395192d6b510d906978ae2d251 -> 0.18.0@git:a820a3ffba468cbb87c2a7e7bbe37065ed5207ee"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-core]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:767ac03245ee937d3dc552edc13fe7ab0a860eec -> 0.18.0@git:ff7b2c399301cca9bcbc5b19a869feb3c29ef785"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-core]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:a820a3ffba468cbb87c2a7e7bbe37065ed5207ee -> 0.18.0@git:767ac03245ee937d3dc552edc13fe7ab0a860eec"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-core]]
-who = "Teodor Tanasoaia <ttanasoaia@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:ba3d6898f18c25bb5a2b8ba18790134b97758e83 -> 0.18.0@git:3ec547cdcaaa14488327d8f1b5f7736278c4178d"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-core]]
-who = "Teodor Tanasoaia <ttanasoaia@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:ff7b2c399301cca9bcbc5b19a869feb3c29ef785 -> 0.18.0@git:6dc9ccab8592645fda3204be1cfb5929fd7f924d"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.wgpu-hal]]
@@ -5745,54 +5602,6 @@ criteria = "safe-to-deploy"
 delta = "0.17.0 -> 0.18.0"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
-[[audits.wgpu-hal]]
-who = "Jim Blandy <jimb@red-bean.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0 -> 0.18.0@git:34e947de4b3e0b0d6b0e2f40cede926467ea9f1e"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-hal]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:34e947de4b3e0b0d6b0e2f40cede926467ea9f1e -> 0.18.0@git:ba3d6898f18c25bb5a2b8ba18790134b97758e83"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-hal]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:3ec547cdcaaa14488327d8f1b5f7736278c4178d -> 0.18.0@git:6e21f7a9291db4395192d6b510d906978ae2d251"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-hal]]
-who = "Erich Gubler <egubler@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:6e21f7a9291db4395192d6b510d906978ae2d251 -> 0.18.0@git:a820a3ffba468cbb87c2a7e7bbe37065ed5207ee"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-hal]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:767ac03245ee937d3dc552edc13fe7ab0a860eec -> 0.18.0@git:ff7b2c399301cca9bcbc5b19a869feb3c29ef785"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-hal]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:a820a3ffba468cbb87c2a7e7bbe37065ed5207ee -> 0.18.0@git:767ac03245ee937d3dc552edc13fe7ab0a860eec"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-hal]]
-who = "Teodor Tanasoaia <ttanasoaia@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:ba3d6898f18c25bb5a2b8ba18790134b97758e83 -> 0.18.0@git:3ec547cdcaaa14488327d8f1b5f7736278c4178d"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-hal]]
-who = "Teodor Tanasoaia <ttanasoaia@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:ff7b2c399301cca9bcbc5b19a869feb3c29ef785 -> 0.18.0@git:6dc9ccab8592645fda3204be1cfb5929fd7f924d"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
 [[audits.wgpu-types]]
 who = "Dzmitry Malyshau <kvark@fastmail.com>"
 criteria = "safe-to-deploy"
@@ -5841,54 +5650,6 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Nicolas Silva <nical@fastmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.17.0 -> 0.18.0"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-types]]
-who = "Jim Blandy <jimb@red-bean.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0 -> 0.18.0@git:34e947de4b3e0b0d6b0e2f40cede926467ea9f1e"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-types]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:34e947de4b3e0b0d6b0e2f40cede926467ea9f1e -> 0.18.0@git:ba3d6898f18c25bb5a2b8ba18790134b97758e83"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-types]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:3ec547cdcaaa14488327d8f1b5f7736278c4178d -> 0.18.0@git:6e21f7a9291db4395192d6b510d906978ae2d251"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-types]]
-who = "Erich Gubler <egubler@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:6e21f7a9291db4395192d6b510d906978ae2d251 -> 0.18.0@git:a820a3ffba468cbb87c2a7e7bbe37065ed5207ee"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-types]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:767ac03245ee937d3dc552edc13fe7ab0a860eec -> 0.18.0@git:ff7b2c399301cca9bcbc5b19a869feb3c29ef785"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-types]]
-who = "Nicolas Silva <nical@fastmail.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:a820a3ffba468cbb87c2a7e7bbe37065ed5207ee -> 0.18.0@git:767ac03245ee937d3dc552edc13fe7ab0a860eec"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-types]]
-who = "Teodor Tanasoaia <ttanasoaia@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:ba3d6898f18c25bb5a2b8ba18790134b97758e83 -> 0.18.0@git:3ec547cdcaaa14488327d8f1b5f7736278c4178d"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.wgpu-types]]
-who = "Teodor Tanasoaia <ttanasoaia@mozilla.com>"
-criteria = "safe-to-deploy"
-delta = "0.18.0@git:ff7b2c399301cca9bcbc5b19a869feb3c29ef785 -> 0.18.0@git:6dc9ccab8592645fda3204be1cfb5929fd7f924d"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.whatsys]]
