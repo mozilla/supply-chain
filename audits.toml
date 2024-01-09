@@ -351,6 +351,15 @@ end = "2024-03-09"
 notes = "This code contains two cryptographic back ends.  No unsafe code is contained if the Rust `hpke` crate is used (the `rust-hpke` feature).  Using NSS (the `nss` feature) involves extensive use of bindings to the native code provided by NSS.  This interface uses wrappers that attempt to add safety to a fundamentally very dangerous library, but those wrappers have only been validated for use following the needs of this crate."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[wildcard-audits.qcms]]
+who = "Jeff Muizelaar <jmuizelaar@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 5946
+start = "2020-11-05"
+end = "2025-01-09"
+notes = "Maintained by the Graphics team at Mozilla in mozilla-central."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[wildcard-audits.rust_cascade]]
 who = "Dana Keeler <dkeeler@mozilla.com>"
 criteria = "safe-to-deploy"
@@ -3908,12 +3917,6 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Drew Willcoxon <adw@mozilla.com>"
 criteria = "safe-to-deploy"
 delta = "0.11.9 -> 0.12.1"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[audits.qcms]]
-who = "Jeff Muizelaar <jmuizelaar@mozilla.com>"
-criteria = "safe-to-deploy"
-version = "0.2.0"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.qlog]]
