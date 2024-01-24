@@ -4705,6 +4705,12 @@ delta = "3.6.0 -> 3.8.0"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.tempfile]]
+who = "Mike Hommey <mh+mozilla@glandium.org>"
+criteria = "safe-to-deploy"
+delta = "3.8.0 -> 3.9.0"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.tempfile]]
 who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 delta = "3.4.0 -> 3.5.0"
@@ -5922,6 +5928,13 @@ criteria = "safe-to-deploy"
 user-id = 539
 start = "2023-02-05"
 end = "2024-07-17"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.errno]]
+criteria = "safe-to-deploy"
+user-id = 6825
+start = "2023-08-29"
+end = "2025-01-11"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.flate2]]
