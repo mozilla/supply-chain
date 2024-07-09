@@ -1003,6 +1003,12 @@ criteria = "safe-to-run"
 delta = "1.2.0 -> 1.2.3"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.arraystring]]
+who = "Henri Sivonen <hsivonen@hsivonen.fi>"
+criteria = "safe-to-deploy"
+version = "0.3.0"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.ash]]
 who = "Jim Blandy <jimb@red-bean.com>"
 criteria = "safe-to-deploy"
@@ -3228,6 +3234,19 @@ criteria = "safe-to-deploy"
 delta = "1.4.0 -> 1.5.0"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.icu_normalizer]]
+who = "Henri Sivonen <hsivonen@hsivonen.fi>"
+criteria = "safe-to-deploy"
+version = "1.5.0"
+notes = "I, Henri Sivonen, am the principal author of this crate."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.icu_normalizer_data]]
+who = "Henri Sivonen <hsivonen@hsivonen.fi>"
+criteria = "safe-to-deploy"
+version = "1.5.0"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.icu_properties]]
 who = "Jonathan Kew <jkew@mozilla.com>"
 criteria = "safe-to-deploy"
@@ -3360,6 +3379,13 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Valentin Gosu <valentin.gosu@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.4.0 -> 0.5.0"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.idna]]
+who = "Henri Sivonen <hsivonen@hsivonen.fi>"
+criteria = "safe-to-deploy"
+delta = "0.5.0 -> 1.0.2"
+notes = "In the 0.5.0 to 1.0.2 delta, I, Henri Sivonen, rewrote the non-Punycode internals of the crate and made the changes to the Punycode code."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.indexmap]]
@@ -6105,6 +6131,19 @@ criteria = "safe-to-deploy"
 delta = "2.4.1 -> 2.5.0"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.url]]
+who = "Henri Sivonen <hsivonen@hsivonen.fi>"
+criteria = "safe-to-deploy"
+delta = "2.5.0 -> 2.5.1"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.utf16_iter]]
+who = "Henri Sivonen <hsivonen@hsivonen.fi>"
+criteria = "safe-to-deploy"
+version = "1.0.5"
+notes = "I, Henri Sivonen, wrote this crate."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.uuid]]
 who = "Gabriele Svelto <gsvelto@mozilla.com>"
 criteria = "safe-to-deploy"
@@ -6531,6 +6570,13 @@ who = "Lee Salzman <lsalzman@mozilla.com>"
 criteria = "safe-to-deploy"
 version = "0.1.0"
 notes = "Written and maintained by Gfx team at Mozilla."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.write16]]
+who = "Henri Sivonen <hsivonen@hsivonen.fi>"
+criteria = "safe-to-deploy"
+version = "1.0.0"
+notes = "I, Henri Sivonen, wrote this (safe-code-only) crate."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.writeable]]
