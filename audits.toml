@@ -835,6 +835,10 @@ end = "2025-08-05"
 notes = "Maintained by me"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[audits]
+libz-rs-sys = []
+zlib-rs = []
+
 [[audits.aa-stroke]]
 who = "Lee Salzman <lsalzman@mozilla.com>"
 criteria = "safe-to-deploy"
@@ -7090,6 +7094,13 @@ start = "2020-03-17"
 end = "2024-10-25"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[trusted.libz-rs-sys]]
+criteria = "safe-to-deploy"
+user-id = 1303
+start = "2024-02-23"
+end = "2024-09-01"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[trusted.linux-raw-sys]]
 criteria = "safe-to-deploy"
 user-id = 6825
@@ -7459,4 +7470,11 @@ criteria = "safe-to-deploy"
 user-id = 64539
 start = "2021-11-15"
 end = "2024-09-12"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.zlib-rs]]
+criteria = "safe-to-deploy"
+user-id = 1303
+start = "2024-02-23"
+end = "2024-09-01"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
