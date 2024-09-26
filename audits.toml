@@ -79,8 +79,8 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 [[wildcard-audits.cocoa-foundation]]
 who = "Bobby Holley <bobbyholley@gmail.com>"
 criteria = "safe-to-deploy"
-user-id = 5946
-start = "2023-03-16"
+user-id = 2396
+start = "2020-07-20"
 end = "2023-05-04"
 renew = false
 notes = "I've reviewed every source contribution that was neither authored nor reviewed by Mozilla."
@@ -89,8 +89,8 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 [[wildcard-audits.cocoa-foundation]]
 who = "Bobby Holley <bobbyholley@gmail.com>"
 criteria = "safe-to-deploy"
-user-id = 2396
-start = "2020-07-20"
+user-id = 5946
+start = "2023-03-16"
 end = "2023-05-04"
 renew = false
 notes = "I've reviewed every source contribution that was neither authored nor reviewed by Mozilla."
@@ -244,6 +244,16 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 [[wildcard-audits.gleam]]
 who = "Bobby Holley <bobbyholley@gmail.com>"
 criteria = "safe-to-deploy"
+user-id = 1039
+start = "2019-03-01"
+end = "2023-05-04"
+renew = false
+notes = "All code written or reviewed by Mozilla."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[wildcard-audits.gleam]]
+who = "Bobby Holley <bobbyholley@gmail.com>"
+criteria = "safe-to-deploy"
 user-id = 2396
 start = "2019-03-18"
 end = "2023-05-04"
@@ -256,16 +266,6 @@ who = "Bobby Holley <bobbyholley@gmail.com>"
 criteria = "safe-to-deploy"
 user-id = 5946
 start = "2023-04-21"
-end = "2023-05-04"
-renew = false
-notes = "All code written or reviewed by Mozilla."
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[wildcard-audits.gleam]]
-who = "Bobby Holley <bobbyholley@gmail.com>"
-criteria = "safe-to-deploy"
-user-id = 1039
-start = "2019-03-01"
 end = "2023-05-04"
 renew = false
 notes = "All code written or reviewed by Mozilla."
@@ -494,20 +494,20 @@ notes = "All code written or reviewed by Manish"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-user-id = 48
-start = "2022-05-05"
-end = "2024-06-21"
-notes = "Maintained by the Glean and Application Services teams"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[wildcard-audits.uniffi]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2021-10-27"
 end = "2024-12-11"
+notes = "Maintained by the Glean and Application Services teams"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[wildcard-audits.uniffi]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 48
+start = "2022-05-05"
+end = "2024-06-21"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
@@ -537,20 +537,20 @@ end = "2024-12-12"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_bindgen]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-user-id = 48
-start = "2022-05-05"
-end = "2024-06-21"
-notes = "Maintained by the Glean and Application Services teams"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[wildcard-audits.uniffi_bindgen]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2021-10-27"
 end = "2024-12-11"
+notes = "Maintained by the Glean and Application Services teams"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[wildcard-audits.uniffi_bindgen]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 48
+start = "2022-05-05"
+end = "2024-06-21"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
@@ -580,20 +580,20 @@ end = "2024-12-12"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_build]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-user-id = 48
-start = "2022-05-05"
-end = "2024-06-21"
-notes = "Maintained by the Glean and Application Services teams"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[wildcard-audits.uniffi_build]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2021-10-27"
 end = "2024-12-11"
+notes = "Maintained by the Glean and Application Services teams"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[wildcard-audits.uniffi_build]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 48
+start = "2022-05-05"
+end = "2024-06-21"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
@@ -621,15 +621,6 @@ user-id = 127697
 start = "2021-10-27"
 end = "2024-12-12"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
-
-[[wildcard-audits.uniffi_checksum_derive]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-user-id = 48
-start = "2022-12-16"
-end = "2024-06-21"
-notes = "Maintained by the Glean and Application Services teams"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_checksum_derive]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
@@ -637,6 +628,15 @@ criteria = "safe-to-deploy"
 user-id = 127697
 start = "2023-01-27"
 end = "2024-12-11"
+notes = "Maintained by the Glean and Application Services teams"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[wildcard-audits.uniffi_checksum_derive]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 48
+start = "2022-12-16"
+end = "2024-06-21"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
@@ -664,6 +664,15 @@ user-id = 127697
 start = "2023-01-27"
 end = "2024-12-12"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[wildcard-audits.uniffi_core]]
+who = "Ben Dean-Kawamura <bdk@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 127697
+start = "2023-01-27"
+end = "2024-12-11"
+notes = "Maintained by the Glean and Application Services teams"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_core]]
 who = "Jan-Erik Rediger <jrediger@mozilla.com>"
@@ -675,15 +684,6 @@ notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_core]]
-who = "Ben Dean-Kawamura <bdk@mozilla.com>"
-criteria = "safe-to-deploy"
-user-id = 127697
-start = "2023-01-27"
-end = "2024-12-11"
-notes = "Maintained by the Glean and Application Services teams"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[wildcard-audits.uniffi_core]]
 who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 48
@@ -709,20 +709,20 @@ end = "2024-12-12"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_macros]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-user-id = 48
-start = "2022-05-05"
-end = "2024-06-21"
-notes = "Maintained by the Glean and Application Services teams"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[wildcard-audits.uniffi_macros]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2021-10-27"
 end = "2024-12-11"
+notes = "Maintained by the Glean and Application Services teams"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[wildcard-audits.uniffi_macros]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 48
+start = "2022-05-05"
+end = "2024-06-21"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
@@ -752,20 +752,20 @@ end = "2024-12-12"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_meta]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-user-id = 48
-start = "2022-08-31"
-end = "2024-06-21"
-notes = "Maintained by the Glean and Application Services teams"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[wildcard-audits.uniffi_meta]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2022-09-13"
 end = "2024-12-11"
+notes = "Maintained by the Glean and Application Services teams"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[wildcard-audits.uniffi_meta]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 48
+start = "2022-08-31"
+end = "2024-06-21"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
@@ -795,20 +795,20 @@ end = "2024-12-12"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_testing]]
-who = "Jan-Erik Rediger <jrediger@mozilla.com>"
-criteria = "safe-to-deploy"
-user-id = 48
-start = "2022-12-16"
-end = "2024-06-21"
-notes = "Maintained by the Glean and Application Services teams"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
-
-[[wildcard-audits.uniffi_testing]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2023-01-27"
 end = "2024-12-11"
+notes = "Maintained by the Glean and Application Services teams"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[wildcard-audits.uniffi_testing]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 48
+start = "2022-12-16"
+end = "2024-06-21"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
