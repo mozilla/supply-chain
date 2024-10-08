@@ -6241,6 +6241,12 @@ criteria = "safe-to-deploy"
 delta = "0.2.4 -> 0.2.5"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.unicode-xid]]
+who = "Jim Blandy <jimb@red-bean.com>"
+criteria = "safe-to-deploy"
+delta = "0.2.5 -> 0.2.6"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.uniffi]]
 who = "Travis Long <tlong@mozilla.com>"
 criteria = "safe-to-deploy"
