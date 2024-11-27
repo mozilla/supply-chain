@@ -1996,6 +1996,13 @@ criteria = "safe-to-run"
 delta = "0.2.2 -> 0.2.4"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[audits.ctor]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-run"
+delta = "0.2.4 -> 0.2.9"
+notes = "Minimal changes around cfg parameters and fixing one bug breaking compilation on newest Rust"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[audits.cubeb]]
 who = "Matthew Gregan <kinetik@flim.org>"
 criteria = "safe-to-deploy"
