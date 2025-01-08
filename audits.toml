@@ -918,6 +918,7 @@ aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-c
 
 [audits]
 libz-rs-sys = []
+objc = []
 zlib-rs = []
 
 [[audits.aa-stroke]]
