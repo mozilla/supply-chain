@@ -1422,6 +1422,13 @@ delta = "2.4.0 -> 2.4.1"
 notes = "Only allowing new clippy lints"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[audits.bitreader]]
+who = "Bobby Holley <bobbyholley@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "0.3.7 -> 0.3.6"
+notes = "No material changes."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.block-buffer]]
 who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-deploy"
@@ -1492,6 +1499,13 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-deploy"
 delta = "1.1.1 -> 1.1.2"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.camino]]
+who = "Bobby Holley <bobbyholley@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "1.1.4 -> 1.1.2"
+notes = "Older version, just lacks a few APIs and tests from the newer version."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.cargo-config2]]
@@ -7724,6 +7738,41 @@ criteria = "safe-to-deploy"
 user-id = 3618
 start = "2019-03-19"
 end = "2024-04-25"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.phf]]
+criteria = "safe-to-deploy"
+user-id = 51017
+start = "2021-06-17"
+end = "2026-01-03"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.phf_codegen]]
+criteria = "safe-to-deploy"
+user-id = 51017
+start = "2021-06-17"
+end = "2026-01-03"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.phf_generator]]
+criteria = "safe-to-deploy"
+user-id = 51017
+start = "2021-06-17"
+end = "2026-01-03"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.phf_macros]]
+criteria = "safe-to-deploy"
+user-id = 51017
+start = "2021-06-17"
+end = "2026-01-03"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.phf_shared]]
+criteria = "safe-to-deploy"
+user-id = 51017
+start = "2021-06-17"
+end = "2026-01-03"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.proc-macro-hack]]
