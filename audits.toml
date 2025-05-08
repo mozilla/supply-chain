@@ -837,6 +837,15 @@ start = "2022-09-13"
 end = "2026-01-13"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[wildcard-audits.uniffi_pipeline]]
+who = "Ben Dean-Kawamura <bdk@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 127697
+start = "2021-10-27"
+end = "2026-02-01"
+notes = "Maintained by the Glean and Application Services teams"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[wildcard-audits.uniffi_testing]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
 criteria = "safe-to-deploy"
@@ -1217,6 +1226,21 @@ crates. No unsafe code or ambient capability usage.
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.askama]]
+who = "Ben Dean-Kawamura <bdk@mozilla.com>"
+criteria = "safe-to-deploy"
+version = "0.13.1"
+notes = """
+Template crate.  This is only used to generate the Rust/JS code for UniFFI.
+
+We used to use askama, then we switched to rinja which was a fork.  Now rinja and
+askama have merged again.
+
+The differences from askama 0.12, are pretty straightforward and don't seem risky to me.  There's
+some unsafe code and macros, but nothing that complicated.
+"""
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.askama]]
 who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 delta = "0.11.1 -> 0.12.0"
@@ -1224,11 +1248,39 @@ notes = "No new unsafe usage, mostly dependency updates and smaller API changes"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.askama_derive]]
+who = "Ben Dean-Kawamura <bdk@mozilla.com>"
+criteria = "safe-to-deploy"
+version = "0.13.1"
+notes = """
+Template crate.  This is only used to generate the Rust/JS code for UniFFI.
+
+We used to use askama, then we switched to rinja which was a fork.  Now rinja and
+askama have merged again.
+
+I did a quick scan of the current code and couldn't find any issues.
+"""
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.askama_derive]]
 who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 delta = "0.11.2 -> 0.12.1"
 notes = "Dependency updates, a new toml dependency and some API changes. No unsafe use."
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[audits.askama_parser]]
+who = "Ben Dean-Kawamura <bdk@mozilla.com>"
+criteria = "safe-to-deploy"
+version = "0.13.0"
+notes = """
+Template crate.  This is only used to generate the Rust/JS code for UniFFI.
+
+We used to use askama, then we switched to rinja which was a fork.  Now rinja and
+askama have merged again.
+
+I did a quick scan of the current code and couldn't find any issues.
+"""
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.async-task]]
 who = "Nika Layzell <nika@thelayzells.com>"
@@ -8835,6 +8887,13 @@ criteria = "safe-to-deploy"
 user-id = 64539
 start = "2021-11-15"
 end = "2024-09-12"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.winnow]]
+criteria = "safe-to-deploy"
+user-id = 6743
+start = "2023-02-22"
+end = "2026-05-05"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.winnow]]
