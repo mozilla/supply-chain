@@ -1795,6 +1795,12 @@ delta = "0.4.19 -> 0.4.40"
 notes = "Significant refactor of both implementation and dependencies."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.chrono]]
+who = "Lars Eggert <lars@eggert.org>"
+criteria = "safe-to-deploy"
+delta = "0.4.40 -> 0.4.41"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[audits.circular]]
 who = "Alex Franchuk <afranchuk@mozilla.com>"
 criteria = "safe-to-deploy"
@@ -2602,6 +2608,12 @@ unsafety is verified with copious assertions (many are compile-time), and
 otherwise the unsafety is documented and left to the caller to verify.
 """
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.deranged]]
+who = "Lars Eggert <lars@eggert.org>"
+criteria = "safe-to-deploy"
+delta = "0.3.11 -> 0.4.0"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.derive_arbitrary]]
 who = "Mike Hommey <mh+mozilla@glandium.org>"
@@ -4369,6 +4381,12 @@ criteria = "safe-to-deploy"
 delta = "0.1.32 -> 0.1.33"
 notes = "No unsafe added, only non-trivial change is switching to the getrandom crate on Windows."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.js-sys]]
+who = "Lars Eggert <lars@eggert.org>"
+criteria = "safe-to-deploy"
+delta = "0.3.76 -> 0.3.77"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.keccak]]
 who = "Simon Friedberger <simon@mozilla.com>"
@@ -7153,6 +7171,12 @@ invariants claimed were true.
 """
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.time]]
+who = "Lars Eggert <lars@eggert.org>"
+criteria = "safe-to-deploy"
+delta = "0.3.36 -> 0.3.41"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[audits.time-core]]
 who = "Kershaw Chang <kershaw@mozilla.com>"
 criteria = "safe-to-deploy"
@@ -7176,6 +7200,12 @@ who = "Alex Franchuk <afranchuk@mozilla.com>"
 criteria = "safe-to-deploy"
 delta = "0.1.1 -> 0.1.2"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.time-core]]
+who = "Lars Eggert <lars@eggert.org>"
+criteria = "safe-to-deploy"
+delta = "0.1.2 -> 0.1.4"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.time-macros]]
 who = "Kershaw Chang <kershaw@mozilla.com>"
@@ -7932,6 +7962,18 @@ who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-run"
 delta = "0.3.2 -> 0.3.3"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.wasm-bindgen]]
+who = "Lars Eggert <lars@eggert.org>"
+criteria = "safe-to-deploy"
+delta = "0.2.99 -> 0.2.100"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[audits.wasm-bindgen-macro]]
+who = "Lars Eggert <lars@eggert.org>"
+criteria = "safe-to-deploy"
+delta = "0.2.99 -> 0.2.100"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.wasm-encoder]]
 who = "Ryan Hunt <rhunt@eqrion.net>"
@@ -9021,6 +9063,13 @@ start = "2019-07-14"
 end = "2024-04-25"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[trusted.inherent]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2019-07-14"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.io-lifetimes]]
 criteria = "safe-to-deploy"
 user-id = 6825
@@ -9069,6 +9118,13 @@ user-id = 1
 start = "2019-03-15"
 end = "2024-05-05"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.js-sys]]
+criteria = "safe-to-deploy"
+user-id = 1
+start = "2019-03-04"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[trusted.libc]]
 criteria = "safe-to-deploy"
@@ -9224,6 +9280,13 @@ start = "2019-03-19"
 end = "2024-04-25"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[trusted.paste]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2019-03-19"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.phf]]
 criteria = "safe-to-deploy"
 user-id = 51017
@@ -9336,6 +9399,13 @@ start = "2021-10-29"
 end = "2024-10-19"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[trusted.rustversion]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2019-07-08"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.ryu]]
 criteria = "safe-to-deploy"
 user-id = 3618
@@ -9349,6 +9419,13 @@ user-id = 3618
 start = "2019-05-02"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
+
+[[trusted.ryu]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2019-05-02"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[trusted.same-file]]
 criteria = "safe-to-deploy"
@@ -9427,6 +9504,13 @@ start = "2019-02-28"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
 
+[[trusted.serde_json]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2019-02-28"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.serde_repr]]
 criteria = "safe-to-deploy"
 user-id = 3618
@@ -9489,6 +9573,13 @@ user-id = 3618
 start = "2019-03-01"
 end = "2025-09-12"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
+
+[[trusted.syn]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2019-03-01"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[trusted.termcolor]]
 criteria = "safe-to-deploy"
@@ -9658,6 +9749,41 @@ start = "2020-06-03"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
 
+[[trusted.wasm-bindgen]]
+criteria = "safe-to-deploy"
+user-id = 1
+start = "2019-03-04"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[trusted.wasm-bindgen-backend]]
+criteria = "safe-to-deploy"
+user-id = 1
+start = "2019-03-04"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[trusted.wasm-bindgen-macro]]
+criteria = "safe-to-deploy"
+user-id = 1
+start = "2019-03-04"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[trusted.wasm-bindgen-macro-support]]
+criteria = "safe-to-deploy"
+user-id = 1
+start = "2019-03-04"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[trusted.wasm-bindgen-shared]]
+criteria = "safe-to-deploy"
+user-id = 1
+start = "2019-03-04"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.wasm-encoder]]
 criteria = "safe-to-deploy"
 user-id = 73222
@@ -9700,12 +9826,26 @@ start = "2021-11-15"
 end = "2024-09-20"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[trusted.windows-core]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2021-11-15"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.windows-implement]]
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2022-01-27"
 end = "2025-07-29"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.windows-implement]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2022-01-27"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[trusted.windows-interface]]
 criteria = "safe-to-deploy"
@@ -9714,7 +9854,35 @@ start = "2022-02-18"
 end = "2025-07-29"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[trusted.windows-interface]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2022-02-18"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[trusted.windows-link]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2024-07-17"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.windows-result]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2024-02-02"
+end = "2025-07-29"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.windows-result]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2024-02-02"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[trusted.windows-strings]]
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2024-02-02"
@@ -9725,8 +9893,8 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2024-02-02"
-end = "2025-07-29"
-aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[trusted.windows-sys]]
 criteria = "safe-to-deploy"
@@ -9749,12 +9917,26 @@ start = "2022-09-09"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
 
+[[trusted.windows-targets]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2022-09-09"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.windows_aarch64_gnullvm]]
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2022-09-01"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
+
+[[trusted.windows_aarch64_gnullvm]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2022-09-01"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[trusted.windows_aarch64_msvc]]
 criteria = "safe-to-deploy"
@@ -9797,6 +9979,13 @@ user-id = 64539
 start = "2022-09-01"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
+
+[[trusted.windows_x86_64_gnullvm]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2022-09-01"
+end = "2026-06-18"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[trusted.windows_x86_64_msvc]]
 criteria = "safe-to-deploy"
