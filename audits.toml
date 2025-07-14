@@ -543,7 +543,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 48
 start = "2022-05-05"
-end = "2025-08-05"
+end = "2026-07-02"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
@@ -586,7 +586,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 48
 start = "2022-05-05"
-end = "2025-08-05"
+end = "2026-07-02"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
@@ -629,7 +629,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 48
 start = "2022-05-05"
-end = "2025-08-05"
+end = "2026-07-02"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
@@ -672,7 +672,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 48
 start = "2022-05-05"
-end = "2025-08-05"
+end = "2026-07-02"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
@@ -715,7 +715,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 48
 start = "2022-05-05"
-end = "2025-08-05"
+end = "2026-07-02"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
@@ -774,7 +774,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 48
 start = "2022-05-05"
-end = "2025-08-05"
+end = "2026-07-02"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
@@ -817,7 +817,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 48
 start = "2022-08-31"
-end = "2025-08-05"
+end = "2026-07-02"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
@@ -869,7 +869,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 48
 start = "2022-05-05"
-end = "2025-08-05"
+end = "2026-07-02"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
@@ -954,7 +954,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 48
 start = "2021-03-03"
-end = "2025-08-05"
+end = "2026-07-02"
 notes = "Maintained by me"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
@@ -4313,6 +4313,13 @@ criteria = "safe-to-deploy"
 delta = "2.2.6 -> 2.7.1"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.indexmap]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "2.8.0 -> 2.9.0"
+notes = "Doc update, a new API, one carefully annotated unsafe code block with all preconditions checked"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[audits.inherent]]
 who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-deploy"
@@ -6262,6 +6269,13 @@ who = "Kagami Sascha Rosylight <krosylight@mozilla.com>"
 criteria = "safe-to-deploy"
 delta = "0.18.4 -> 0.19.0"
 notes = "Maintained by Mozilla, no addition of unsafe blocks"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[audits.rkv]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.19.0 -> 0.20.0"
+notes = "Removed all LMDB-specific code, added malloc_size_of integration"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.rmp]]
@@ -9135,6 +9149,13 @@ start = "2019-04-02"
 end = "2025-09-12"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
 
+[[trusted.hashbrown]]
+criteria = "safe-to-deploy"
+user-id = 55123
+start = "2025-04-30"
+end = "2026-06-10"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.headers]]
 criteria = "safe-to-deploy"
 user-id = 359
@@ -9765,6 +9786,13 @@ start = "2019-10-09"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
 
+[[trusted.thiserror]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2019-10-09"
+end = "2026-06-10"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.thiserror-impl]]
 criteria = "safe-to-deploy"
 user-id = 3618
@@ -9778,6 +9806,13 @@ user-id = 3618
 start = "2019-10-09"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
+
+[[trusted.thiserror-impl]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2019-10-09"
+end = "2026-06-10"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[trusted.threadbound]]
 criteria = "safe-to-deploy"
@@ -10170,6 +10205,13 @@ user-id = 6743
 start = "2023-02-22"
 end = "2025-09-12"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
+
+[[trusted.winnow]]
+criteria = "safe-to-deploy"
+user-id = 6743
+start = "2023-02-22"
+end = "2026-06-10"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[trusted.zerotrie]]
 criteria = "safe-to-deploy"
