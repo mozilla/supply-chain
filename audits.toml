@@ -1719,6 +1719,13 @@ delta = "1.1.4 -> 1.1.9"
 notes = "No new unsafe code, some cleanup and a new function added"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[audits.canonical_json]]
+who = "Ben Dean-Kawamura <bdk@mozilla.com>"
+criteria = "safe-to-deploy"
+version = "0.5.0"
+notes = "Maintained by the Mozilla developers."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.cargo-config2]]
 who = "Nika Layzell <nika@thelayzells.com>"
 criteria = "safe-to-deploy"
@@ -2904,6 +2911,13 @@ criteria = "safe-to-deploy"
 delta = "0.2.3 -> 0.2.4"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.dissimilar]]
+who = "Ben Dean-Kawamura <bdk@mozilla.com>"
+criteria = "safe-to-run"
+version = "1.0.10"
+notes = "dtolnay crate that will generate diffs for testing purposes.  No IO or unsafe code."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.doc-comment]]
 who = "Nika Layzell <nika@thelayzells.com>"
 criteria = "safe-to-deploy"
@@ -3089,6 +3103,16 @@ who = "Chris Martin <cmartin@mozilla.com>"
 criteria = "safe-to-deploy"
 version = "0.1.1"
 notes = "This code was written and reviewed by Mozilla employees"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.expect-test]]
+who = "Ben Dean-Kawamura <bdk@mozilla.com>"
+criteria = "safe-to-run"
+version = "1.4.1"
+notes = """
+Expectation testing/management library.  This will read/write the Rust test files, but that's
+expected.  It should only change string literals and any changes will be visible in code review.
+"""
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.extend]]
@@ -5293,6 +5317,16 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Benjamin Beurdouche <beurdouche@mozilla.com>"
 criteria = "safe-to-deploy"
 delta = "0.11.0 -> 0.15.0"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.mockito]]
+who = "Ben Dean-Kawamura <bdk@mozilla.com>"
+criteria = "safe-to-run"
+version = "0.31.0"
+notes = """
+Used to setup mock HTTP servers for unit tests. I quickly scanned the code and it seems safe to me.
+It's also popular enough that I would expect any issues to have been uncovered by the public.
+"""
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.moz_cbor]]
