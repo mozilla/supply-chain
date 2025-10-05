@@ -983,7 +983,9 @@ notes = "Maintained by me"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [audits]
+bhttp = []
 objc = []
+ohttp = []
 
 [[audits.aa-stroke]]
 who = "Lee Salzman <lsalzman@mozilla.com>"
