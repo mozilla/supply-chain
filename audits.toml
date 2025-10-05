@@ -10520,14 +10520,21 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2021-01-15"
-end = "2025-01-30"
+end = "2026-10-02"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.windows-collections]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2025-02-06"
+end = "2026-10-02"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.windows-core]]
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2021-11-15"
-end = "2024-09-20"
+end = "2026-10-02"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.windows-core]]
@@ -10537,11 +10544,18 @@ start = "2021-11-15"
 end = "2026-06-18"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[trusted.windows-future]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2025-02-10"
+end = "2026-10-02"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[trusted.windows-implement]]
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2022-01-27"
-end = "2025-07-29"
+end = "2026-10-02"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.windows-implement]]
@@ -10555,7 +10569,7 @@ aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-c
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2022-02-18"
-end = "2025-07-29"
+end = "2026-10-02"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.windows-interface]]
@@ -10569,14 +10583,28 @@ aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-c
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2024-07-17"
+end = "2026-10-02"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.windows-link]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2024-07-17"
 end = "2026-06-18"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[trusted.windows-numerics]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2023-05-15"
+end = "2026-10-02"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.windows-result]]
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2024-02-02"
-end = "2025-07-29"
+end = "2026-10-02"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.windows-result]]
@@ -10590,7 +10618,7 @@ aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-c
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2024-02-02"
-end = "2025-07-29"
+end = "2026-10-02"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.windows-strings]]
@@ -10604,7 +10632,7 @@ aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-c
 criteria = "safe-to-deploy"
 user-id = 64539
 start = "2021-11-15"
-end = "2024-09-12"
+end = "2026-10-02"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.windows-sys]]
@@ -10613,6 +10641,13 @@ user-id = 64539
 start = "2021-11-15"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
+
+[[trusted.windows-targets]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2022-09-09"
+end = "2026-10-02"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.windows-targets]]
 criteria = "safe-to-deploy"
@@ -10627,6 +10662,13 @@ user-id = 64539
 start = "2022-09-09"
 end = "2026-06-18"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[trusted.windows-threading]]
+criteria = "safe-to-deploy"
+user-id = 64539
+start = "2025-04-29"
+end = "2026-10-02"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.windows_aarch64_gnullvm]]
 criteria = "safe-to-deploy"
