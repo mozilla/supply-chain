@@ -2346,6 +2346,12 @@ delta = "0.35.0 -> 0.35.0@git:71b7cfe6f1cd85427ca905a41be31ca9f6af29a5"
 notes = "Only dependency bumps and one trivial change with no unsafe change."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.cssparser]]
+who = "Diego Escalante <descalante@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.35.0 -> 0.36.0"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.cssparser-color]]
 who = "Emilio Cobos Álvarez <emilio@crisal.io>"
 criteria = "safe-to-deploy"
