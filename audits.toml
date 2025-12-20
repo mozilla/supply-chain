@@ -6786,6 +6786,12 @@ criteria = "safe-to-deploy"
 delta = "0.10.1 -> 0.11.0"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.ron]]
+who = "Jim Blandy <jimb@red-bean.com>"
+criteria = "safe-to-deploy"
+delta = "0.11.0 -> 0.12.0"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.rure]]
 who = "Nika Layzell <nika@thelayzells.com>"
 criteria = "safe-to-deploy"
@@ -10671,6 +10677,13 @@ criteria = "safe-to-deploy"
 user-id = 6743
 start = "2025-07-08"
 end = "2026-11-12"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.typeid]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2024-05-13"
+end = "2026-12-11"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.typeid]]
