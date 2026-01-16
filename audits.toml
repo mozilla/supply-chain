@@ -576,7 +576,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 111105
 start = "2021-11-22"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi]]
@@ -584,7 +584,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2021-10-27"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_bindgen]]
@@ -619,7 +619,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 111105
 start = "2021-11-22"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_bindgen]]
@@ -627,7 +627,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2021-10-27"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_build]]
@@ -662,7 +662,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 111105
 start = "2021-11-22"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_build]]
@@ -670,7 +670,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2021-10-27"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_checksum_derive]]
@@ -705,7 +705,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 111105
 start = "2023-11-20"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_checksum_derive]]
@@ -713,7 +713,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2023-01-27"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_core]]
@@ -748,7 +748,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 111105
 start = "2023-11-20"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_core]]
@@ -756,7 +756,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2023-01-27"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_internal_macros]]
@@ -807,7 +807,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 111105
 start = "2021-11-22"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_macros]]
@@ -815,7 +815,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2021-10-27"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_meta]]
@@ -850,7 +850,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 111105
 start = "2023-11-20"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_meta]]
@@ -858,7 +858,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2022-09-13"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_pipeline]]
@@ -869,6 +869,15 @@ start = "2021-10-27"
 end = "2026-02-01"
 notes = "Maintained by the Glean and Application Services teams"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[wildcard-audits.uniffi_pipeline]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+user-id = 111105
+start = "2025-10-08"
+end = "2027-01-14"
+notes = "Maintained by the Glean and Application Services teams"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_testing]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
@@ -902,7 +911,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 111105
 start = "2023-11-20"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_testing]]
@@ -910,7 +919,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2023-01-27"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_udl]]
@@ -927,7 +936,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 111105
 start = "2023-11-20"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.uniffi_udl]]
@@ -935,7 +944,7 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 127697
 start = "2023-10-18"
-end = "2026-01-13"
+end = "2027-01-08"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[wildcard-audits.utf8_iter]]
@@ -1304,6 +1313,12 @@ delta = "0.11.1 -> 0.12.0"
 notes = "No new unsafe usage, mostly dependency updates and smaller API changes"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[audits.askama]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.13.1 -> 0.14.0"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[audits.askama_derive]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
 criteria = "safe-to-deploy"
@@ -1325,6 +1340,12 @@ delta = "0.11.2 -> 0.12.1"
 notes = "Dependency updates, a new toml dependency and some API changes. No unsafe use."
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[audits.askama_derive]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.13.1 -> 0.14.0"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[audits.askama_parser]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
 criteria = "safe-to-deploy"
@@ -1338,6 +1359,12 @@ askama have merged again.
 I did a quick scan of the current code and couldn't find any issues.
 """
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.askama_parser]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.13.0 -> 0.14.0"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.async-task]]
 who = "Nika Layzell <nika@thelayzells.com>"
@@ -7160,6 +7187,12 @@ delta = "1.0.163 -> 1.0.179"
 notes = "Internal refactorings and some new trait implementations"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[audits.serde]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.227 -> 1.0.228"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[audits.serde-value]]
 who = "Nika Layzell <nika@thelayzells.com>"
 criteria = "safe-to-deploy"
@@ -7202,6 +7235,12 @@ who = "Erich Gubler <erichdongubler@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "1.0.226 -> 1.0.227"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.serde_core]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.227 -> 1.0.228"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.serde_derive]]
 who = "Mike Hommey <mh+mozilla@glandium.org>"
@@ -7251,6 +7290,12 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 delta = "1.0.163 -> 1.0.179"
 notes = "Internal refactorings and dependency updates"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[audits.serde_derive]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.227 -> 1.0.228"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.serde_json]]
@@ -7307,6 +7352,13 @@ criteria = "safe-to-deploy"
 version = "1.0.3"
 notes = "Relatively simple Serde trait implementations.  No IO or unsafe code."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.serde_spanned]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.3 -> 1.0.4"
+notes = "Unchanged"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.serde_with]]
 who = "Mike Hommey <mh+mozilla@glandium.org>"
@@ -8021,6 +8073,19 @@ who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-deploy"
 delta = "0.5.10 -> 0.5.11"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.toml_datetime]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+version = "0.7.5+spec-1.1.0"
+notes = "Pure data type crate with some datetime parsing. No unsafe."
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[audits.toml_writer]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+version = "1.0.6+spec-1.1.0"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[audits.topological-sort]]
 who = "Bobby Holley <bobbyholley@gmail.com>"
@@ -10776,6 +10841,13 @@ start = "2022-12-14"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
 
+[[trusted.toml]]
+criteria = "safe-to-deploy"
+user-id = 6743
+start = "2022-12-14"
+end = "2027-01-08"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[trusted.toml_datetime]]
 criteria = "safe-to-deploy"
 user-id = 6743
@@ -10803,6 +10875,13 @@ user-id = 6743
 start = "2025-07-08"
 end = "2026-11-12"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[trusted.toml_parser]]
+criteria = "safe-to-deploy"
+user-id = 6743
+start = "2025-07-08"
+end = "2027-01-08"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [[trusted.toml_write]]
 criteria = "safe-to-deploy"
