@@ -1388,6 +1388,12 @@ criteria = "safe-to-run"
 version = "2.1.2"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[audits.assert_cmd]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-run"
+delta = "2.1.2 -> 2.2.0"
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[audits.async-task]]
 who = "Nika Layzell <nika@thelayzells.com>"
 criteria = "safe-to-deploy"
