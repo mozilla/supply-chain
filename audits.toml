@@ -5122,6 +5122,34 @@ criteria = "safe-to-deploy"
 delta = "0.3.76 -> 0.3.77"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[audits.jxl]]
+who = "Timothy Nikkel <tnikkel@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "0.4.1 -> 0.4.3"
+notes = "A small number of smaller misc changes. No unsafe changed, added, or removed."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.jxl_macros]]
+who = "Timothy Nikkel <tnikkel@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "0.4.1 -> 0.4.3"
+notes = "A small number of smaller misc changes. No unsafe changed, added, or removed."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.jxl_simd]]
+who = "Timothy Nikkel <tnikkel@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "0.4.1 -> 0.4.3"
+notes = "A small number of smaller misc changes. No unsafe changed, added, or removed."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.jxl_transforms]]
+who = "Timothy Nikkel <tnikkel@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "0.4.1 -> 0.4.3"
+notes = "A small number of smaller misc changes. No unsafe changed, added, or removed."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.keccak]]
 who = "Simon Friedberger <simon@mozilla.com>"
 criteria = "safe-to-deploy"
