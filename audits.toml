@@ -229,6 +229,15 @@ end = "2024-05-05"
 notes = "Lina developed this crate as Mozilla staff."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[wildcard-audits.ece]]
+who = "Mark Hammond <mhammond@skippinet.com.au>"
+criteria = "safe-to-deploy"
+user-id = 43489
+start = "2019-05-01"
+end = "2026-08-06"
+notes = "Crate lives under github.com/mozilla, is maintained by Mozilla and has the same review and publishing guidelines as mozilla-central."
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[wildcard-audits.encoding_rs]]
 who = "Henri Sivonen <hsivonen@hsivonen.fi>"
 criteria = "safe-to-deploy"
@@ -477,7 +486,7 @@ who = "Martin Thomson <mt@lowentropy.net>"
 criteria = "safe-to-deploy"
 user-id = 128763
 start = "2022-08-04"
-end = "2026-02-01"
+end = "2027-04-15"
 notes = "This code contains two cryptographic back ends.  No unsafe code is contained if the Rust `hpke` crate is used (the `rust-hpke` feature).  Using NSS (the `nss` feature) involves extensive use of bindings to the native code provided by NSS.  This interface uses wrappers that attempt to add safety to a fundamentally very dangerous library, but those wrappers have only been validated for use following the needs of this crate."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
@@ -994,6 +1003,7 @@ aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-c
 [audits]
 harfbuzz-sys = []
 objc = []
+ohttp = []
 
 [[audits.aa-stroke]]
 who = "Lee Salzman <lsalzman@mozilla.com>"
@@ -3348,6 +3358,12 @@ expected.  It should only change string literals and any changes will be visible
 """
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.expect-test]]
+who = "Mark Hammond <mhammond@skippinet.com.au>"
+criteria = "safe-to-run"
+delta = "1.4.1 -> 1.5.1"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.extend]]
 who = "Ben Dean-Kawamura <bdk@mozilla.com>"
 criteria = "safe-to-deploy"
@@ -3619,6 +3635,12 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "edgul <ed.guloien@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "1.2.1 -> 1.2.2"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.fragile]]
+who = "Mark Hammond <mhammond@skippinet.com.au>"
+criteria = "safe-to-run"
+delta = "2.0.0 -> 2.0.1"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.fs-err]]
@@ -5741,6 +5763,12 @@ criteria = "safe-to-deploy"
 delta = "0.5.3 -> 0.6.2"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.minreq]]
+who = "Mark Hammond <mhammond@skippinet.com.au>"
+criteria = "safe-to-run"
+version = "2.14.1"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.mio]]
 who = "Bobby Holley <bobbyholley@gmail.com>"
 criteria = "safe-to-run"
@@ -5912,6 +5940,12 @@ notes = """
 Used to setup mock HTTP servers for unit tests. I quickly scanned the code and it seems safe to me.
 It's also popular enough that I would expect any issues to have been uncovered by the public.
 """
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.mockito]]
+who = "Mark Hammond <mhammond@skippinet.com.au>"
+criteria = "safe-to-run"
+delta = "0.31.0 -> 0.31.1"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.moz_cbor]]
@@ -6450,6 +6484,12 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Bastian Gruber <foreach@me.com>"
 criteria = "safe-to-deploy"
 version = "0.1.11"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.oneshot]]
+who = "Mark Hammond <mhammond@skippinet.com.au>"
+criteria = "safe-to-run"
+delta = "0.1.11 -> 0.1.13"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.oneshot-uniffi]]
@@ -10732,6 +10772,13 @@ end = "2026-04-21"
 notes = "Jelte audits each PR that was submitted for security issues. He has not contributed much to Mozilla codebases, but is the maintainer of PgBouncer and is a Postgres contributor. Unsafe code is forbidden using #[forbid(unsafe_code)]."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[trusted.dissimilar]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2019-12-23"
+end = "2027-04-15"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[trusted.dtoa]]
 criteria = "safe-to-deploy"
 user-id = 3618
@@ -11683,6 +11730,13 @@ user-id = 3618
 start = "2021-10-02"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
+
+[[trusted.unsafe-libyaml]]
+criteria = "safe-to-deploy"
+user-id = 3618
+start = "2022-07-03"
+end = "2026-09-06"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[trusted.walkdir]]
 criteria = "safe-to-deploy"
