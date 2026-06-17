@@ -10480,6 +10480,13 @@ delta = "1.1.0 -> 1.2.0"
 notes = "Added a file lock on the created directory"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
+[[audits.xshell-venv]]
+who = "Jan-Erik Rediger <jrediger@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "1.3.0 -> 1.4.0"
+notes = "Maintained by me. I have written or reviewed all of the code."
+aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
 [[audits.yaml-rust2]]
 who = "Lars Eggert <lars@eggert.org>"
 criteria = "safe-to-deploy"
