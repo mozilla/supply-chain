@@ -993,7 +993,6 @@ aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-c
 
 [audits]
 harfbuzz-sys = []
-naga-types = []
 objc = []
 ohttp = []
 
