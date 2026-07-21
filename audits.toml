@@ -1985,6 +1985,12 @@ delta = "0.1.1 -> 0.2.1"
 notes = "Very minor changes."
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.cfg_aliases]]
+who = "Erich Gubler <erichdongubler@gmail.com>"
+criteria = "safe-to-deploy"
+delta = "0.2.1 -> 0.2.2"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.cgl]]
 who = "Sotaro Ikeda <sotaro.ikeda.g@gmail.com>"
 criteria = "safe-to-deploy"
@@ -3739,6 +3745,12 @@ aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-ch
 who = "Erich Gubler <erichdongubler@gmail.com>"
 criteria = "safe-to-deploy"
 delta = "0.1.5 -> 0.2.0"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
+[[audits.font-types]]
+who = "Emily McDonough <emcdonough@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.8.3 -> 0.12.1"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.foreign-types]]
@@ -7556,6 +7568,12 @@ criteria = "safe-to-deploy"
 delta = "1.10.1 -> 1.10.2"
 aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
+[[audits.read-fonts]]
+who = "Emily McDonough <emcdonough@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.27.3 -> 0.41.0"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
+
 [[audits.redox_syscall]]
 who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-deploy"
@@ -8446,6 +8464,12 @@ who = "Jan-Erik Rediger <jrediger@mozilla.com>"
 criteria = "safe-to-deploy"
 delta = "0.3.10 -> 0.3.11"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
+
+[[audits.skrifa]]
+who = "Emily McDonough <emcdonough@mozilla.com>"
+criteria = "safe-to-deploy"
+delta = "0.29.0 -> 0.44.0"
+aggregated-from = "https://hg.mozilla.org/mozilla-central/raw-file/tip/supply-chain/audits.toml"
 
 [[audits.slab]]
 who = "Mike Hommey <mh+mozilla@glandium.org>"
