@@ -1073,7 +1073,9 @@ notes = "Maintained by me"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/glean/main/supply-chain/audits.toml"
 
 [audits]
+gl_generator = []
 harfbuzz-sys = []
+khronos_api = []
 objc = []
 ohttp = []
 
