@@ -4741,6 +4741,12 @@ criteria = "safe-to-run"
 delta = "1.7.1 -> 1.8.0"
 aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
 
+[[audits.humantime]]
+who = "Max Inden <mail@max-inden.de>"
+criteria = "safe-to-deploy"
+version = "2.4.0"
+aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
+
 [[audits.hyper]]
 who = "Mike Hommey <mh+mozilla@glandium.org>"
 criteria = "safe-to-run"
@@ -7668,6 +7674,12 @@ aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/mai
 who = "Oskar Mansfeld <git@omansfeld.net>"
 criteria = "safe-to-deploy"
 delta = "0.15.2 -> 0.16.0"
+aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
+
+[[audits.qlog]]
+who = "Max Inden <mail@max-inden.de>"
+criteria = "safe-to-deploy"
+delta = "0.16.0 -> 0.18.1"
 aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
 
 [[audits.quick-xml]]
