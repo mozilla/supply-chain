@@ -234,7 +234,7 @@ who = "Mark Hammond <mhammond@skippinet.com.au>"
 criteria = "safe-to-deploy"
 user-id = 43489
 start = "2019-05-01"
-end = "2026-08-06"
+end = "2027-10-27"
 notes = "Crate lives under github.com/mozilla, is maintained by Mozilla and has the same review and publishing guidelines as mozilla-central."
 aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
 
@@ -504,7 +504,7 @@ who = "Alex Franchuk <afranchuk@mozilla.com>"
 criteria = "safe-to-deploy"
 user-id = 106639
 start = "2023-07-25"
-end = "2026-11-13"
+end = "2027-10-27"
 notes = "This crate is written and solely maintained by a mozilla employee."
 aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
 
