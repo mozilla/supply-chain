@@ -12033,6 +12033,13 @@ start = "2022-11-24"
 end = "2026-06-02"
 aggregated-from = "https://raw.githubusercontent.com/mozilla/cargo-vet/main/supply-chain/audits.toml"
 
+[[trusted.form_urlencoded]]
+criteria = "safe-to-deploy"
+user-id = 1139
+start = "2021-02-19"
+end = "2027-11-22"
+aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
+
 [[trusted.h2]]
 criteria = "safe-to-deploy"
 user-id = 359
@@ -13144,6 +13151,13 @@ criteria = "safe-to-deploy"
 user-id = 3618
 start = "2022-07-03"
 end = "2026-09-06"
+aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
+
+[[trusted.url]]
+criteria = "safe-to-deploy"
+user-id = 1139
+start = "2021-02-18"
+end = "2027-11-22"
 aggregated-from = "https://raw.githubusercontent.com/mozilla-firefox/firefox/main/supply-chain/audits.toml"
 
 [[trusted.walkdir]]
